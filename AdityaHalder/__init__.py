@@ -72,11 +72,11 @@ async def initiate_bot():
     os.system("clear")
     header = Table(show_header=True, header_style="bold yellow")
     header.add_column(
-        "Genius Userbot : Best Ever Userbot"
+        "Mystery Userbot : Best Ever Userbot"
     )
     console.print(header)
     with console.status(
-        "[magenta] Genius UserBot Booting...",
+        "[magenta] Mystery UserBot Booting...",
     ) as status:
         console.print("┌ [red]Booting Up The Bot Clients...\n")
         await robot.start()
