@@ -1,4 +1,4 @@
-# 𝐊𝐚𝐚𝐥 𝐌𝐮𝐬𝐢𝐜 // @𝐢𝐚𝐦𝐤𝐚𝐚𝐥
+# 𝐌ʀ ●𓆩𝐌ʏsᴛᴇʀʏ 🥀✘𓆪‌ 𝐌𝐮𝐬𝐢𝐜 // @𝐢𝐚𝐦𝐤𝐚𝐚𝐥
 
 import os
 import sys
@@ -96,7 +96,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+        thumb_name = "https://telegra.ph/file/fcb649bb9a557181d7edc.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -128,7 +128,7 @@ async def play(_, message: Message):
             
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+            thumb_name = "https://telegra.ph/file/fcb649bb9a557181d7edc.jpg"
             duration = "NaN"
             views = "NaN"
 
@@ -176,7 +176,7 @@ async def play(_, message: Message):
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
-        await lel.edit("**💥 𝐊𝐚𝐚𝐥🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
+        await lel.edit("**💥 𝐌ʀ ●𓆩𝐌ʏsᴛᴇʀʏ 🥀✘𓆪‌🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
     )
     else:
         await clientbot.pytgcalls.join_group_call(
@@ -189,7 +189,7 @@ async def play(_, message: Message):
                 stream_type=StreamType().local_stream,
             )
 
-        await lel.edit("**💥 𝐊𝐚𝐚𝐥🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+        await lel.edit("**💥 𝐌ʀ ●𓆩𝐌ʏsᴛᴇʀʏ 🥀✘𓆪‌🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
         )
 
     return await lel.delete()
@@ -283,7 +283,7 @@ async def stop(_, message: Message):
 
 @Client.on_message(commandpro([".song", "sng", ".sng", ".msc", "msc"]) & SUDOERS)
 async def song(client, message):
-    cap = "**🥀 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 ː [𝐌𝐫᭄'𝐊𝐚𝐚𝐋-𝐱𝐃](https://t.me/iamkaal)**"
+    cap = "**🥀 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 ː [Mʀ Nɪʜᴀʟ](https://t.me/Mr_Nihal9)**"
     rkp = await message.reply("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
 
     if len(message.command) < 2:
